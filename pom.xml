@@ -35,7 +35,7 @@
         <publish.crx.password>admin</publish.crx.password>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <netty.version>4.0.13.Final</netty.version>
+        <netty.version>4.1.1.Final</netty.version>
     </properties>
     <dependencies>
         <dependency>
@@ -98,7 +98,7 @@
             <plugin>
                 <groupId>com.day.jcr.vault</groupId>
                 <artifactId>content-package-maven-plugin</artifactId>
-                <version>0.0.20</version>
+                <version>0.0.24</version>
                 <extensions>true</extensions>
                 <configuration>
                     <group>adobe/consulting</group>
